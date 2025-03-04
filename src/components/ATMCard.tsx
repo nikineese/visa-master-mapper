@@ -3,7 +3,7 @@ import React from 'react';
 import { ATM } from '@/utils/api';
 import { formatDistance, getGoogleMapsUrl } from '@/utils/mapUtils';
 import { cn } from '@/lib/utils';
-import { ExternalLink, Clock, Phone, CreditCard, MapPin } from 'lucide-react';
+import { ExternalLink, Clock, Phone, CreditCard, MapPin, Navigation } from 'lucide-react';
 
 interface ATMCardProps {
   atm: ATM;
@@ -87,10 +87,10 @@ const ATMCard: React.FC<ATMCardProps> = ({
         href={getGoogleMapsUrl(atm)} 
         target="_blank" 
         rel="noopener noreferrer"
-        className="nav-button text-sm w-full justify-center mt-2 group-hover:shadow-md"
+        className="bg-primary hover:bg-primary/90 text-white font-medium rounded-full px-4 py-2 flex items-center justify-center gap-2 transition-colors duration-300 shadow-sm hover:shadow-md"
         onClick={(e) => e.stopPropagation()}
       >
-        Navigate <ExternalLink size={14} className="ml-1" />
+        <Navigation size={16} /> Navigate <ExternalLink size={14} className="ml-1" />
       </a>
     </div>
   );
