@@ -6,7 +6,7 @@ import SearchPanel from '@/components/SearchPanel';
 import MapView from '@/components/Map';
 import { ATM, SearchParams, searchATMs } from '@/utils/api';
 import ATMCard from '@/components/ATMCard';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Index = () => {
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
