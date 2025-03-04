@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, CreditCard } from 'lucide-react';
 import AnimatedTransition from '@/components/AnimatedTransition';
-import SearchPanel from '@/components/SearchPanel';
+import { SearchPanel } from '@/components/search';
 import MapView from '@/components/Map';
 import { ATM, SearchParams, searchATMs } from '@/utils/api';
 import ATMCard from '@/components/ATMCard';
