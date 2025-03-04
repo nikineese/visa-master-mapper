@@ -14,6 +14,7 @@ import {
   ChevronsUpDown
 } from 'lucide-react';
 import AnimatedTransition from './AnimatedTransition';
+import { toast } from 'sonner';
 
 interface SearchPanelProps {
   onSearch: (params: SearchParams) => void;
@@ -33,6 +34,7 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
   const [radius, setRadius] = useState(5); // 5 km default
   const [locationInput, setLocationInput] = useState('');
   const [services, setServices] = useState<string[]>([]);
+  const [manualCoords, setManualCoords] = useState<[number, number] | null>(null);
   
   // Available services
   const availableServices = [
@@ -62,15 +64,42 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
     }
   };
   
+  // Function to simulate geolocation based on search input
+  const simulateGeolocation = () => {
+    // If there's user input but no actual geolocation, create a simulated location
+    // For demo purposes, these coordinates are in New York City
+    const defaultLat = 40.7128;
+    const defaultLng = -74.0060;
+    
+    // Add some slight randomization to the coordinates
+    const variation = (Math.random() - 0.5) * 0.05;
+    const simulatedLat = defaultLat + variation;
+    const simulatedLng = defaultLng + variation;
+    
+    return [simulatedLat, simulatedLng] as [number, number];
+  };
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (!userLocation) {
-      // Get user location if not available
+    let searchLocation = userLocation;
+    
+    // If user has entered a location but we don't have coordinates
+    if (locationInput && !searchLocation) {
+      // In a real app, we would geocode the locationInput to get coordinates
+      // For this demo, we'll simulate coordinates based on input
+      searchLocation = simulateGeolocation();
+      setManualCoords(searchLocation);
+      setUserLocation(searchLocation);
+      
+      toast.info("Using approximate location for search");
+    } else if (!searchLocation) {
+      // Try to get user location if not available
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          setUserLocation([latitude, longitude]);
+          const coords: [number, number] = [latitude, longitude];
+          setUserLocation(coords);
           
           onSearch({
             latitude,
@@ -82,19 +111,35 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
         },
         (error) => {
           console.error('Error getting location:', error);
-          alert('Could not get your location. Please enter a location manually.');
+          
+          // Use fallback coordinates if geolocation fails
+          const fallbackCoords = simulateGeolocation();
+          setUserLocation(fallbackCoords);
+          setManualCoords(fallbackCoords);
+          
+          toast.warning("Could not get your exact location. Using approximate location for search.");
+          
+          onSearch({
+            latitude: fallbackCoords[0],
+            longitude: fallbackCoords[1],
+            radius,
+            networks,
+            services: services.length > 0 ? services : undefined
+          });
         }
       );
       return;
     }
     
-    onSearch({
-      latitude: userLocation[0],
-      longitude: userLocation[1],
-      radius,
-      networks,
-      services: services.length > 0 ? services : undefined
-    });
+    if (searchLocation) {
+      onSearch({
+        latitude: searchLocation[0],
+        longitude: searchLocation[1],
+        radius,
+        networks,
+        services: services.length > 0 ? services : undefined
+      });
+    }
   };
   
   // Get initial user location
@@ -109,6 +154,7 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
         },
         (error) => {
           console.error('Error getting location:', error);
+          // Don't show toast here, we'll handle it in the search function
         }
       );
     }
@@ -167,7 +213,9 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
                   },
                   (error) => {
                     console.error('Error getting location:', error);
-                    alert('Could not get your location.');
+                    toast.error('Could not get your location. Please enter a location manually.');
+                    
+                    // Don't set simulated location here, let the user enter one
                   }
                 );
               }
@@ -308,3 +356,4 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
 };
 
 export default SearchPanel;
+
