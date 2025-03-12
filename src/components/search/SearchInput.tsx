@@ -18,7 +18,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
       <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" size={18} />
       <input
         type="text"
-        placeholder="Search for ATMs near you"
+        placeholder="Enter a location (e.g., New York, Chicago)"
         className="search-input pl-10"
         value={locationInput}
         onChange={e => setLocationInput(e.target.value)}

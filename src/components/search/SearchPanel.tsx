@@ -46,56 +46,16 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    let searchLocation = userLocation;
-    
-    // If user has entered a location but we don't have coordinates
-    if (locationInput && !searchLocation) {
-      // In a real app, we would geocode the locationInput to get coordinates
+    // If there's location input, use it
+    if (locationInput) {
+      // In a real app, we would geocode the locationInput
       // For this demo, we'll simulate coordinates based on input
-      searchLocation = simulateGeolocation();
+      const searchLocation = simulateGeolocation(locationInput);
       setManualCoords(searchLocation);
       setUserLocation(searchLocation);
       
-      toast.info("Using approximate location for search");
-    } else if (!searchLocation) {
-      // Try to get user location if not available
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          const coords: [number, number] = [latitude, longitude];
-          setUserLocation(coords);
-          
-          onSearch({
-            latitude,
-            longitude,
-            radius,
-            networks,
-            services: services.length > 0 ? services : undefined
-          });
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-          
-          // Use fallback coordinates if geolocation fails
-          const fallbackCoords = simulateGeolocation();
-          setUserLocation(fallbackCoords);
-          setManualCoords(fallbackCoords);
-          
-          toast.warning("Could not get your exact location. Using approximate location for search.");
-          
-          onSearch({
-            latitude: fallbackCoords[0],
-            longitude: fallbackCoords[1],
-            radius,
-            networks,
-            services: services.length > 0 ? services : undefined
-          });
-        }
-      );
-      return;
-    }
-    
-    if (searchLocation) {
+      toast.info(`Searching near "${locationInput}"`);
+      
       onSearch({
         latitude: searchLocation[0],
         longitude: searchLocation[1],
@@ -103,7 +63,55 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
         networks,
         services: services.length > 0 ? services : undefined
       });
+      return;
     }
+    
+    // If we already have user location, use it
+    if (userLocation) {
+      onSearch({
+        latitude: userLocation[0],
+        longitude: userLocation[1],
+        radius,
+        networks,
+        services: services.length > 0 ? services : undefined
+      });
+      return;
+    }
+    
+    // If we don't have user location, try to get it
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        const coords: [number, number] = [latitude, longitude];
+        setUserLocation(coords);
+        
+        onSearch({
+          latitude,
+          longitude,
+          radius,
+          networks,
+          services: services.length > 0 ? services : undefined
+        });
+      },
+      (error) => {
+        console.error('Error getting location:', error);
+        
+        // Use fallback coordinates if geolocation fails
+        const fallbackCoords = simulateGeolocation(locationInput || 'Default Location');
+        setUserLocation(fallbackCoords);
+        setManualCoords(fallbackCoords);
+        
+        toast.warning("Could not get your exact location. Using approximate location for search.");
+        
+        onSearch({
+          latitude: fallbackCoords[0],
+          longitude: fallbackCoords[1],
+          radius,
+          networks,
+          services: services.length > 0 ? services : undefined
+        });
+      }
+    );
   };
   
   // Get initial user location
