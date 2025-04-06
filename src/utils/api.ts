@@ -24,7 +24,13 @@ export interface SearchParams {
   radius: number; // in kilometers
   networks: ('VISA' | 'MASTERCARD')[];
   services?: string[];
+  availableCash?: string[]; // Added field for cash denominations search
 }
+
+// Helper function to generate random delta values
+const generateRandomDelta = (min: number, max: number): number => {
+  return (Math.random() * (max - min) + min) * (Math.random() > 0.5 ? 1 : -1);
+};
 
 // This is a mock implementation since we can't directly use the Visa/Mastercard APIs
 // In a real implementation, this would make actual API calls
@@ -41,8 +47,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       state: 'NY',
       postalCode: '10001',
       coordinates: {
-        latitude: params.latitude + 0.002,
-        longitude: params.longitude + 0.003
+        latitude: params.latitude + generateRandomDelta(0.001, 0.005),
+        longitude: params.longitude + generateRandomDelta(0.001, 0.005)
       },
       networks: ['VISA', 'MASTERCARD'],
       services: ['Cash Withdrawal', 'Balance Inquiry', 'Deposits'],
@@ -58,8 +64,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       state: 'NY',
       postalCode: '10002',
       coordinates: {
-        latitude: params.latitude - 0.001,
-        longitude: params.longitude + 0.002
+        latitude: params.latitude + generateRandomDelta(0.001, 0.005),
+        longitude: params.longitude + generateRandomDelta(0.001, 0.005)
       },
       networks: ['VISA'],
       services: ['Cash Withdrawal', 'Balance Inquiry'],
@@ -74,8 +80,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       state: 'NY',
       postalCode: '10003',
       coordinates: {
-        latitude: params.latitude + 0.003,
-        longitude: params.longitude - 0.002
+        latitude: params.latitude + generateRandomDelta(0.001, 0.005),
+        longitude: params.longitude + generateRandomDelta(0.001, 0.005)
       },
       networks: ['MASTERCARD'],
       services: ['Cash Withdrawal', 'Cash Deposit', 'Check Deposit'],
@@ -91,8 +97,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       state: 'NY',
       postalCode: '10004',
       coordinates: {
-        latitude: params.latitude - 0.003,
-        longitude: params.longitude - 0.004
+        latitude: params.latitude + generateRandomDelta(0.001, 0.005),
+        longitude: params.longitude + generateRandomDelta(0.001, 0.005)
       },
       networks: ['VISA', 'MASTERCARD'],
       services: ['Cash Withdrawal', 'Balance Inquiry', 'Pin Change'],
@@ -107,8 +113,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       state: 'NY',
       postalCode: '10005',
       coordinates: {
-        latitude: params.latitude + 0.005,
-        longitude: params.longitude - 0.001
+        latitude: params.latitude + generateRandomDelta(0.001, 0.005),
+        longitude: params.longitude + generateRandomDelta(0.001, 0.005)
       },
       networks: ['MASTERCARD'],
       services: ['Cash Withdrawal'],
@@ -126,6 +132,13 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
   if (params.services && params.services.length > 0) {
     filteredATMs = filteredATMs.filter(atm => 
       params.services!.some(service => atm.services.includes(service))
+    );
+  }
+  
+  // Filter by available cash denominations if specified
+  if (params.availableCash && params.availableCash.length > 0) {
+    filteredATMs = filteredATMs.filter(atm => 
+      atm.availableCash && params.availableCash!.some(cash => atm.availableCash!.includes(cash))
     );
   }
   

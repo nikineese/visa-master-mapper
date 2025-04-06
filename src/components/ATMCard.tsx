@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { ATM } from '@/utils/api';
 import { formatDistance, getGoogleMapsUrl } from '@/utils/mapUtils';
 import { cn } from '@/lib/utils';
-import { ExternalLink, Clock, Phone, CreditCard, MapPin, Navigation } from 'lucide-react';
+import { ExternalLink, Clock, Phone, CreditCard, MapPin, Navigation, BanknoteIcon } from 'lucide-react';
 
 interface ATMCardProps {
   atm: ATM;
@@ -70,6 +71,25 @@ const ATMCard: React.FC<ATMCardProps> = ({
           </div>
         )}
       </div>
+      
+      {atm.availableCash && atm.availableCash.length > 0 && (
+        <div className="mb-3">
+          <div className="flex items-center gap-1.5 text-muted-foreground mb-1.5">
+            <BanknoteIcon size={14} />
+            <p className="text-xs font-medium">Available Cash:</p>
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {atm.availableCash.map(cash => (
+              <span 
+                key={cash}
+                className="text-xs bg-green-50 text-green-600 border border-green-200 px-2 py-0.5 rounded-full"
+              >
+                {cash}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
       
       <div className="mt-2 flex flex-wrap gap-1.5 mb-3">
         {atm.services.map(service => (
