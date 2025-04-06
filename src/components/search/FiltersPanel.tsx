@@ -4,6 +4,7 @@ import AnimatedTransition from '../AnimatedTransition';
 import NetworkSelector from './NetworkSelector';
 import RadiusSelector from './RadiusSelector';
 import ServicesSelector from './ServicesSelector';
+import CashDenominationsSelector from './CashDenominationsSelector';
 
 interface FiltersPanelProps {
   showFilters: boolean;
@@ -13,6 +14,8 @@ interface FiltersPanelProps {
   setRadius: (radius: number) => void;
   services: string[];
   toggleService: (service: string) => void;
+  availableCash: string[];
+  toggleCashDenomination: (denomination: string) => void;
   isSearching: boolean;
 }
 
@@ -23,7 +26,9 @@ const FiltersPanel: React.FC<FiltersPanelProps> = ({
   radius, 
   setRadius, 
   services, 
-  toggleService, 
+  toggleService,
+  availableCash,
+  toggleCashDenomination,
   isSearching 
 }) => {
   return (
@@ -44,6 +49,12 @@ const FiltersPanel: React.FC<FiltersPanelProps> = ({
           radius={radius} 
           setRadius={setRadius} 
           isSearching={isSearching} 
+        />
+        
+        <CashDenominationsSelector
+          availableCash={availableCash}
+          toggleCashDenomination={toggleCashDenomination}
+          isSearching={isSearching}
         />
         
         <ServicesSelector 

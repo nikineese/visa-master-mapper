@@ -22,6 +22,7 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
   const [radius, setRadius] = useState(5); // 5 km default
   const [locationInput, setLocationInput] = useState('');
   const [services, setServices] = useState<string[]>([]);
+  const [availableCash, setAvailableCash] = useState<string[]>([]);
   const [manualCoords, setManualCoords] = useState<[number, number] | null>(null);
   
   const toggleService = (service: string) => {
@@ -29,6 +30,14 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
       setServices(services.filter(s => s !== service));
     } else {
       setServices([...services, service]);
+    }
+  };
+  
+  const toggleCashDenomination = (denomination: string) => {
+    if (availableCash.includes(denomination)) {
+      setAvailableCash(availableCash.filter(d => d !== denomination));
+    } else {
+      setAvailableCash([...availableCash, denomination]);
     }
   };
   
@@ -159,6 +168,8 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
           setRadius={setRadius}
           services={services}
           toggleService={toggleService}
+          availableCash={availableCash}
+          toggleCashDenomination={toggleCashDenomination}
           isSearching={isSearching}
         />
         

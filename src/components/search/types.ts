@@ -12,3 +12,8 @@ export interface NetworkType {
   id: 'VISA' | 'MASTERCARD';
   active: boolean;
 }
+
+export interface CashDenomination {
+  value: string;
+  active: boolean;
+}

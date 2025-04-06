@@ -15,6 +15,7 @@ export interface ATM {
   services: string[];
   hours: string;
   phoneNumber?: string;
+  availableCash?: string[]; // Added field for cash denominations
 }
 
 export interface SearchParams {
@@ -46,7 +47,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       networks: ['VISA', 'MASTERCARD'],
       services: ['Cash Withdrawal', 'Balance Inquiry', 'Deposits'],
       hours: '24/7',
-      phoneNumber: '+1 (555) 123-4567'
+      phoneNumber: '+1 (555) 123-4567',
+      availableCash: ['50 UAH', '100 UAH', '200 UAH']
     },
     {
       id: '2',
@@ -62,6 +64,7 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       networks: ['VISA'],
       services: ['Cash Withdrawal', 'Balance Inquiry'],
       hours: 'Mon-Fri: 9AM-8PM, Sat: 10AM-5PM, Sun: Closed',
+      availableCash: ['50 UAH', '100 UAH']
     },
     {
       id: '3',
@@ -77,7 +80,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       networks: ['MASTERCARD'],
       services: ['Cash Withdrawal', 'Cash Deposit', 'Check Deposit'],
       hours: '24/7',
-      phoneNumber: '+1 (555) 987-6543'
+      phoneNumber: '+1 (555) 987-6543',
+      availableCash: ['100 UAH', '500 UAH']
     },
     {
       id: '4',
@@ -93,6 +97,7 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       networks: ['VISA', 'MASTERCARD'],
       services: ['Cash Withdrawal', 'Balance Inquiry', 'Pin Change'],
       hours: 'Mon-Sun: 8AM-10PM',
+      availableCash: ['50 UAH', '100 UAH', '200 UAH', '500 UAH']
     },
     {
       id: '5',
@@ -107,7 +112,8 @@ export const searchATMs = async (params: SearchParams): Promise<ATM[]> => {
       },
       networks: ['MASTERCARD'],
       services: ['Cash Withdrawal'],
-      hours: 'Mon-Fri: 9AM-5PM, Sat-Sun: Closed'
+      hours: 'Mon-Fri: 9AM-5PM, Sat-Sun: Closed',
+      availableCash: ['100 UAH']
     }
   ];
   
