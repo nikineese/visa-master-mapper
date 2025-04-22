@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { SearchParams } from '@/utils/api';
 import { cn } from '@/lib/utils';
@@ -23,19 +24,17 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
   const [availableCash, setAvailableCash] = useState<string[]>([]);
   
   const toggleService = (service: string) => {
-    if (services.includes(service)) {
-      setServices(services.filter(s => s !== service));
-    } else {
-      setServices([...services, service]);
-    }
+    setServices(services.includes(service) 
+      ? services.filter(s => s !== service)
+      : [...services, service]
+    );
   };
   
   const toggleCashDenomination = (denomination: string) => {
-    if (availableCash.includes(denomination)) {
-      setAvailableCash(availableCash.filter(d => d !== denomination));
-    } else {
-      setAvailableCash([...availableCash, denomination]);
-    }
+    setAvailableCash(availableCash.includes(denomination)
+      ? availableCash.filter(d => d !== denomination)
+      : [...availableCash, denomination]
+    );
   };
   
   const toggleNetwork = (network: 'VISA' | 'MASTERCARD') => {
@@ -91,7 +90,6 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
         },
         (error) => {
           console.error('Error getting location:', error);
-          // Don't show toast here, we'll handle it in the search function
         }
       );
     }
