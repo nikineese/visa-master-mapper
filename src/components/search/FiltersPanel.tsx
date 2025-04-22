@@ -7,7 +7,6 @@ import ServicesSelector from './ServicesSelector';
 import CashDenominationsSelector from './CashDenominationsSelector';
 
 interface FiltersPanelProps {
-  showFilters: boolean;
   networks: ('VISA' | 'MASTERCARD')[];
   toggleNetwork: (network: 'VISA' | 'MASTERCARD') => void;
   radius: number;
@@ -19,48 +18,47 @@ interface FiltersPanelProps {
   isSearching: boolean;
 }
 
-const FiltersPanel: React.FC<FiltersPanelProps> = ({ 
-  showFilters, 
-  networks, 
-  toggleNetwork, 
-  radius, 
-  setRadius, 
-  services, 
+const FiltersPanel: React.FC<FiltersPanelProps> = ({
+  networks,
+  toggleNetwork,
+  radius,
+  setRadius,
+  services,
   toggleService,
   availableCash,
   toggleCashDenomination,
-  isSearching 
+  isSearching
 }) => {
   return (
     <AnimatedTransition
-      show={showFilters}
+      show={true}
       duration={300}
       type="fade"
       className="overflow-hidden"
     >
       <div className="bg-secondary/30 backdrop-blur-sm rounded-lg p-3 mb-4">
-        <NetworkSelector 
-          networks={networks} 
-          toggleNetwork={toggleNetwork} 
-          isSearching={isSearching} 
+        <NetworkSelector
+          networks={networks}
+          toggleNetwork={toggleNetwork}
+          isSearching={isSearching}
         />
-        
-        <RadiusSelector 
-          radius={radius} 
-          setRadius={setRadius} 
-          isSearching={isSearching} 
+
+        <RadiusSelector
+          radius={radius}
+          setRadius={setRadius}
+          isSearching={isSearching}
         />
-        
+
         <CashDenominationsSelector
           availableCash={availableCash}
           toggleCashDenomination={toggleCashDenomination}
           isSearching={isSearching}
         />
-        
-        <ServicesSelector 
-          services={services} 
-          toggleService={toggleService} 
-          isSearching={isSearching} 
+
+        <ServicesSelector
+          services={services}
+          toggleService={toggleService}
+          isSearching={isSearching}
         />
       </div>
     </AnimatedTransition>

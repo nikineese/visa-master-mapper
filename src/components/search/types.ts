@@ -4,8 +4,7 @@ import { SearchParams } from '@/utils/api';
 export interface SearchPanelProps {
   onSearch: (params: SearchParams) => void;
   isSearching: boolean;
-  userLocation: [number, number] | null;
-  setUserLocation: (location: [number, number]) => void;
+  mapCenter: { lat: number; lng: number };
 }
 
 export interface NetworkType {

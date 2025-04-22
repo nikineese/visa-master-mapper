@@ -1,0 +1,4081 @@
+[
+  {
+    "id": "528a8042-1c73-4a44-84a7-72266e6385ba",
+    "name": "PUMB ATM #1",
+    "address": "169 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.230569,
+      "longitude": 28.457954
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 321815",
+    "availableCash": [
+      "50 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "36de6b58-01af-4b5d-b6f0-5e0706693e80",
+    "name": "Oschadbank ATM #2",
+    "address": "80 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.225051,
+      "longitude": 28.455009
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Pin Change",
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 386389",
+    "availableCash": [
+      "50 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "5f6b544b-3b61-451b-8c65-f70dd2e79c68",
+    "name": "Oschadbank ATM #3",
+    "address": "61 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.23007,
+      "longitude": 28.466604
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 395608",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "409b6840-7387-4d4c-9f2c-c8967e275b7e",
+    "name": "Oschadbank ATM #4",
+    "address": "131 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.245029,
+      "longitude": 28.462272
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 310576",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "babb382d-eb43-435a-927a-f4d83e33b163",
+    "name": "Raiffeisen Bank ATM #5",
+    "address": "163 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.24314,
+      "longitude": 28.457085
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361129",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "2c119f14-42e9-46dc-8116-fb7af026d345",
+    "name": "PrivatBank ATM #6",
+    "address": "5 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.225253,
+      "longitude": 28.48149
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 372655",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "3dee8366-df21-4acf-8893-d10d0d6fcd87",
+    "name": "PUMB ATM #7",
+    "address": "106 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227849,
+      "longitude": 28.464591
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit",
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 376266",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "2a7d617f-1928-45e7-8a89-f68dd80683ef",
+    "name": "PrivatBank ATM #8",
+    "address": "123 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.240451,
+      "longitude": 28.456968
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361652",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "db1ee79c-b8db-4c87-80af-8f3bb950e8e1",
+    "name": "Raiffeisen Bank ATM #9",
+    "address": "187 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.237442,
+      "longitude": 28.483839
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 347807",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "57fbad78-1666-4ec2-b5e8-3cdeb304ada6",
+    "name": "Oschadbank ATM #10",
+    "address": "5 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226014,
+      "longitude": 28.465173
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361890",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "f132b7fb-d415-4865-9a02-d2e4cf09ef7a",
+    "name": "PrivatBank ATM #11",
+    "address": "148 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.244909,
+      "longitude": 28.463988
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 314371",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "6d8c37c1-e7bb-4d99-ad22-d6cc7e41d2b5",
+    "name": "PrivatBank ATM #12",
+    "address": "48 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.231598,
+      "longitude": 28.47145
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 336265",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "196f5eed-d560-4b4c-8c47-b843be51edff",
+    "name": "UkrSibbank ATM #13",
+    "address": "41 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.237329,
+      "longitude": 28.467844
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 315508",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "3eec83b0-c64f-410b-81dd-496a5eefff29",
+    "name": "Raiffeisen Bank ATM #14",
+    "address": "33 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.231796,
+      "longitude": 28.476825
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 309458",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "2d9f12f2-8248-49ce-8e6f-624e1efe7118",
+    "name": "PUMB ATM #15",
+    "address": "43 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223376,
+      "longitude": 28.472655
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 386501",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "4976d601-2471-4811-a641-49cf0a420221",
+    "name": "PUMB ATM #16",
+    "address": "61 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.239825,
+      "longitude": 28.463016
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 327071",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "ecae1e6d-ba5f-4031-b188-1fdb5747cbd1",
+    "name": "PrivatBank ATM #17",
+    "address": "21 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.231938,
+      "longitude": 28.453916
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 364683",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "90c2b314-04a5-4fa9-9641-9b3082879e19",
+    "name": "Raiffeisen Bank ATM #18",
+    "address": "44 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.228151,
+      "longitude": 28.479768
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 312143",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "363ba84c-e752-468c-8af4-94c0670d41c4",
+    "name": "Raiffeisen Bank ATM #19",
+    "address": "133 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.236345,
+      "longitude": 28.472717
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 328527",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "d7a59698-f555-4680-846f-6c46f1412578",
+    "name": "PrivatBank ATM #20",
+    "address": "58 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222895,
+      "longitude": 28.45956
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 303445",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "f2d2e37f-a462-4e4e-81f1-99bb42d4f89e",
+    "name": "PUMB ATM #21",
+    "address": "16 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.235065,
+      "longitude": 28.480426
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 365283",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "288b0c52-27b6-4472-b6e0-c74b67a05f93",
+    "name": "Raiffeisen Bank ATM #22",
+    "address": "96 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.242125,
+      "longitude": 28.460257
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 318072",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "e7116d3f-0e94-4bb6-878d-0eb56f8eade7",
+    "name": "PUMB ATM #23",
+    "address": "124 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.234623,
+      "longitude": 28.481691
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 307329",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "e0189bc3-eaaf-451c-b6b6-6ee871976133",
+    "name": "UkrSibbank ATM #24",
+    "address": "130 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.240781,
+      "longitude": 28.481914
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 324970",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "86b19c24-c77f-4818-8683-1f372eb9b09e",
+    "name": "Raiffeisen Bank ATM #25",
+    "address": "164 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.229496,
+      "longitude": 28.456305
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 331293",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "d3689275-b311-4723-9cfa-8862c2f3f53e",
+    "name": "Raiffeisen Bank ATM #26",
+    "address": "172 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.235561,
+      "longitude": 28.482178
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 356990",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "ca8c2b1c-ecc4-4045-9435-afe624491880",
+    "name": "Raiffeisen Bank ATM #27",
+    "address": "46 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227148,
+      "longitude": 28.459298
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 329552",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "b3c65b25-1956-4478-9059-db7ba436acd9",
+    "name": "PrivatBank ATM #28",
+    "address": "49 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.243004,
+      "longitude": 28.46813
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 307158",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "f90d2e5d-8d7c-4626-a25c-7aa64bd49a34",
+    "name": "PUMB ATM #29",
+    "address": "96 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.224152,
+      "longitude": 28.456689
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Pin Change",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 378446",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "ca64de66-ff0a-4a20-bf59-6bbd82dac63c",
+    "name": "Oschadbank ATM #30",
+    "address": "11 Центр St.",
+    "city": "Vinnytsia",
+    "state": "Центр",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.23075,
+      "longitude": 28.452666
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 328570",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "7c16a756-b824-43f4-bb40-0a76ac937751",
+    "name": "PrivatBank ATM #31",
+    "address": "168 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.240003,
+      "longitude": 28.508219
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 382397",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "c1ec4076-c7ce-42c6-a149-15b7514fed35",
+    "name": "Oschadbank ATM #32",
+    "address": "174 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241317,
+      "longitude": 28.492894
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 329788",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "3688bda7-8975-4887-9a71-3be14b93070a",
+    "name": "UkrSibbank ATM #33",
+    "address": "51 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.252174,
+      "longitude": 28.498526
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 390978",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "7f583b38-ea0a-42fd-8822-85583b1ecdb9",
+    "name": "OTP Bank ATM #34",
+    "address": "122 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.234584,
+      "longitude": 28.497896
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 317543",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "dd65e237-634e-465f-98d2-0cbf143f7fd1",
+    "name": "PUMB ATM #35",
+    "address": "35 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241819,
+      "longitude": 28.499284
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 394130",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "7d41ef14-fd62-4639-8a3e-8aef0a1498ff",
+    "name": "OTP Bank ATM #36",
+    "address": "52 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241594,
+      "longitude": 28.485584
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 384663",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "0aa168bb-7154-462c-9202-2339c73e68de",
+    "name": "Oschadbank ATM #37",
+    "address": "103 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.237251,
+      "longitude": 28.488873
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 354047",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "fd30dc85-7849-4096-8a08-9cbc46c8a1f0",
+    "name": "PrivatBank ATM #38",
+    "address": "38 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.252,
+      "longitude": 28.496368
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 378991",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "9017d522-e100-420a-ad15-162ba7784ea7",
+    "name": "PUMB ATM #39",
+    "address": "42 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.238996,
+      "longitude": 28.509378
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 393515",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "fcfb5a25-85e5-44c2-bc1c-a6e91b1915dd",
+    "name": "PUMB ATM #40",
+    "address": "80 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.239377,
+      "longitude": 28.503626
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 329648",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "f1cf50f8-1f19-40c1-b147-da27e747f056",
+    "name": "PrivatBank ATM #41",
+    "address": "37 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.249087,
+      "longitude": 28.502613
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 345763",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "9767e9f4-7d6c-4879-af77-0e317cdb64e5",
+    "name": "PUMB ATM #42",
+    "address": "110 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.245421,
+      "longitude": 28.49655
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 362831",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "66df0e8d-654d-48ec-9773-805fe053c944",
+    "name": "OTP Bank ATM #43",
+    "address": "199 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.2465,
+      "longitude": 28.49105
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 342971",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "f0a1496e-d9b5-42ba-aff0-6adbf901c688",
+    "name": "UkrSibbank ATM #44",
+    "address": "98 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241114,
+      "longitude": 28.500459
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 375759",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "54300a2d-ca37-4aa2-9cdf-8166c6631ef4",
+    "name": "PrivatBank ATM #45",
+    "address": "37 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241221,
+      "longitude": 28.495917
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 360291",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "91bc8a53-5a8a-458b-a2dc-a69ff0d2f9e9",
+    "name": "Oschadbank ATM #46",
+    "address": "192 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.24088,
+      "longitude": 28.505644
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 372957",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "1c287a0f-6d39-4f66-8b97-1c74aec08d93",
+    "name": "Raiffeisen Bank ATM #47",
+    "address": "38 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.235819,
+      "longitude": 28.494026
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change",
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 305019",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "77f141c2-0138-4bf5-8647-304691803b74",
+    "name": "UkrSibbank ATM #48",
+    "address": "87 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.245117,
+      "longitude": 28.496337
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 301243",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "0508ed16-2b3a-4509-a1f6-a89ac7e97421",
+    "name": "Oschadbank ATM #49",
+    "address": "129 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.244133,
+      "longitude": 28.507268
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 336719",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "49a21241-a9ea-417d-b7d7-0f5281220147",
+    "name": "Oschadbank ATM #50",
+    "address": "179 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.234659,
+      "longitude": 28.500043
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 379108",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "48472c9b-748a-4728-8c34-fe448d2c9834",
+    "name": "PUMB ATM #51",
+    "address": "72 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.251211,
+      "longitude": 28.495946
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 377139",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "7eaa5a9b-a5a1-4269-aaca-807e4cdf2028",
+    "name": "Raiffeisen Bank ATM #52",
+    "address": "12 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.24302,
+      "longitude": 28.503178
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 362577",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "a5ee3de3-1aa1-435d-be97-d3b9bc176d3e",
+    "name": "PrivatBank ATM #53",
+    "address": "114 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.238404,
+      "longitude": 28.507063
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 329280",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "8a93fc4e-3aab-4ee2-b377-8c1165ff21e6",
+    "name": "PrivatBank ATM #54",
+    "address": "55 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.243026,
+      "longitude": 28.491458
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change",
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 318361",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "8c558c94-76a5-4b2b-96b2-9a78126993b2",
+    "name": "PrivatBank ATM #55",
+    "address": "153 Замостя St.",
+    "city": "Vinnytsia",
+    "state": "Замостя",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.245259,
+      "longitude": 28.484321
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 374048",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "55ce0c9a-cb38-426a-8c43-094d894890fb",
+    "name": "PrivatBank ATM #56",
+    "address": "43 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222823,
+      "longitude": 28.412471
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 374697",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "f1ca8dc6-d779-4725-b535-84b03731c751",
+    "name": "Raiffeisen Bank ATM #57",
+    "address": "155 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.236308,
+      "longitude": 28.422381
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 386696",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "09d2e2e2-982c-48e1-8e92-a18eb01b623a",
+    "name": "Raiffeisen Bank ATM #58",
+    "address": "110 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.228921,
+      "longitude": 28.433032
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 316811",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "1d36e886-5464-4cb1-bc8f-8e9cc556c6ca",
+    "name": "Raiffeisen Bank ATM #59",
+    "address": "93 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.229042,
+      "longitude": 28.418206
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 318392",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "caa5799b-ccc2-4451-80ec-842040ccbb74",
+    "name": "UkrSibbank ATM #60",
+    "address": "132 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227108,
+      "longitude": 28.427204
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 373567",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "75f24137-1e3c-46c4-8c3b-110287bf9c06",
+    "name": "Oschadbank ATM #61",
+    "address": "197 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.219594,
+      "longitude": 28.412964
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 390610",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "d6d5cc22-e36f-4d12-a37b-fc6980b68527",
+    "name": "Oschadbank ATM #62",
+    "address": "115 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221179,
+      "longitude": 28.43256
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 365058",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "99e38e24-c1d0-42ac-b12a-33cc41fc05bb",
+    "name": "OTP Bank ATM #63",
+    "address": "94 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.23448,
+      "longitude": 28.421922
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 313403",
+    "availableCash": [
+      "50 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "c0fe918b-2e2f-44e8-a01c-d861bff50e8c",
+    "name": "OTP Bank ATM #64",
+    "address": "121 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223148,
+      "longitude": 28.431651
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 384540",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "c7cc9c4e-0f7b-4a99-92d5-b5b1cbc38736",
+    "name": "PrivatBank ATM #65",
+    "address": "72 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223434,
+      "longitude": 28.412694
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 357384",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "a15c2a22-616f-439f-b02b-316500463fc3",
+    "name": "Oschadbank ATM #66",
+    "address": "40 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.224926,
+      "longitude": 28.42123
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 390416",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "86db34d4-8e8f-464a-bbc1-7c661c83852a",
+    "name": "OTP Bank ATM #67",
+    "address": "77 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227731,
+      "longitude": 28.405577
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 325704",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "8df7b1f6-7385-42ce-8deb-9b990bdfdf60",
+    "name": "OTP Bank ATM #68",
+    "address": "16 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.22642,
+      "longitude": 28.42483
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361786",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "79993c96-df0e-40fe-9d5a-0220adac7458",
+    "name": "Raiffeisen Bank ATM #69",
+    "address": "59 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.224926,
+      "longitude": 28.405616
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 307848",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "d4e2a275-5392-4819-88d5-ae110583896a",
+    "name": "Oschadbank ATM #70",
+    "address": "74 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.235815,
+      "longitude": 28.4108
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 381023",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "a81dce1d-29db-4b75-92a3-f83b35bc46a2",
+    "name": "PUMB ATM #71",
+    "address": "192 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226459,
+      "longitude": 28.421736
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Pin Change",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 352216",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "925960eb-2af5-4b18-af25-5418dde172f5",
+    "name": "Oschadbank ATM #72",
+    "address": "43 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.22555,
+      "longitude": 28.419352
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 377639",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "5fe51a83-5b75-4c38-bc0c-423d935d38e9",
+    "name": "OTP Bank ATM #73",
+    "address": "59 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.230386,
+      "longitude": 28.425703
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 345401",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "164a069a-1f3e-49de-b098-a36e4b834562",
+    "name": "Oschadbank ATM #74",
+    "address": "103 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.235419,
+      "longitude": 28.41563
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 328203",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "8fd39bc0-4a56-433b-b407-450117efa4b6",
+    "name": "PUMB ATM #75",
+    "address": "168 Вишенька St.",
+    "city": "Vinnytsia",
+    "state": "Вишенька",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.217295,
+      "longitude": 28.427041
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Deposit",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 362394",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "bcca4fba-1876-4a0e-aee5-574dc3c8520e",
+    "name": "UkrSibbank ATM #76",
+    "address": "200 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226031,
+      "longitude": 28.446317
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 325700",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "5e81b23d-169b-443b-a096-4805e2a2207a",
+    "name": "PrivatBank ATM #77",
+    "address": "37 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226334,
+      "longitude": 28.455519
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 354450",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "9bb23374-5175-4d6d-985c-7f956e1c9d8e",
+    "name": "UkrSibbank ATM #78",
+    "address": "167 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.22021,
+      "longitude": 28.441823
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 379108",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "84252f3b-b929-462e-a49a-cead406fd71f",
+    "name": "PUMB ATM #79",
+    "address": "141 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222201,
+      "longitude": 28.450622
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit",
+      "Pin Change",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 387305",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "22103077-19bf-4e1c-9b4c-ccd4167d7171",
+    "name": "PrivatBank ATM #80",
+    "address": "76 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.215524,
+      "longitude": 28.439189
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 321103",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "d6fea04f-1e26-4c78-8e9f-bdf54a1d6630",
+    "name": "OTP Bank ATM #81",
+    "address": "37 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221263,
+      "longitude": 28.447732
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 386815",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "492ade35-673b-43f3-bf5b-9b5c27862a73",
+    "name": "OTP Bank ATM #82",
+    "address": "43 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221626,
+      "longitude": 28.454655
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 380154",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "393e12c6-9b81-44ff-a913-fc8511f183cf",
+    "name": "Oschadbank ATM #83",
+    "address": "56 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.21561,
+      "longitude": 28.447915
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 341567",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "cf2b8bf4-a57e-489f-9824-bb4cdb8112e8",
+    "name": "Oschadbank ATM #84",
+    "address": "17 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.230649,
+      "longitude": 28.446578
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 359577",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "d3ef1c6e-fe78-4175-80dc-917ac92ebb6a",
+    "name": "Oschadbank ATM #85",
+    "address": "21 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.214664,
+      "longitude": 28.445496
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 391005",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "a83306d2-0936-4e51-bf40-3346eebe8cb7",
+    "name": "Raiffeisen Bank ATM #86",
+    "address": "146 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221925,
+      "longitude": 28.435537
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 315848",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "8f89341e-30c4-4347-bf75-4a1aae08db11",
+    "name": "PUMB ATM #87",
+    "address": "36 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.229822,
+      "longitude": 28.44074
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 319749",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "95ae9daa-8ab3-4f92-9900-86de5fa0b1e3",
+    "name": "UkrSibbank ATM #88",
+    "address": "93 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226852,
+      "longitude": 28.442897
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 335228",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "489867a4-fcd2-4613-a423-661a0a3159f8",
+    "name": "Oschadbank ATM #89",
+    "address": "53 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223944,
+      "longitude": 28.432031
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 311973",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "fdd09a90-cd1a-4c8c-8e6b-a49f62c1960a",
+    "name": "PrivatBank ATM #90",
+    "address": "107 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.217763,
+      "longitude": 28.452328
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 382372",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "bedabf68-e15b-4e5d-b2e3-c7493f263ee2",
+    "name": "OTP Bank ATM #91",
+    "address": "163 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.22746,
+      "longitude": 28.441822
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 336588",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "db21cbbc-1392-461c-8aba-7c2fb1d8b822",
+    "name": "OTP Bank ATM #92",
+    "address": "47 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.220783,
+      "longitude": 28.434297
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 300357",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "f9c5e30f-8329-40f7-907c-347cee46deb6",
+    "name": "Oschadbank ATM #93",
+    "address": "61 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.220803,
+      "longitude": 28.444416
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 310429",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "f5280f61-e118-49e0-a988-ed31862b37d4",
+    "name": "PrivatBank ATM #94",
+    "address": "197 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.217124,
+      "longitude": 28.454188
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 365180",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "42e5379c-478e-4616-8d4e-059c6c0bb343",
+    "name": "Raiffeisen Bank ATM #95",
+    "address": "23 Поділля St.",
+    "city": "Vinnytsia",
+    "state": "Поділля",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.218811,
+      "longitude": 28.446347
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 331010",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "00220965-17da-4af2-9862-6da21efc25e5",
+    "name": "PrivatBank ATM #96",
+    "address": "16 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223417,
+      "longitude": 28.493914
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 334329",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "d4d1f440-7b49-4038-81fc-5ac677b6fb2e",
+    "name": "UkrSibbank ATM #97",
+    "address": "86 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221419,
+      "longitude": 28.509242
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 321554",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "061af07e-4159-4e70-a3e7-3730b4099a45",
+    "name": "PUMB ATM #98",
+    "address": "72 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.215936,
+      "longitude": 28.487238
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 315490",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "3df5ecf2-d623-4cb2-94ea-996cd6f49ef4",
+    "name": "Raiffeisen Bank ATM #99",
+    "address": "71 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.214531,
+      "longitude": 28.489785
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361731",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "4e6e99cf-1989-4106-9945-e1f644eb6e01",
+    "name": "PrivatBank ATM #100",
+    "address": "155 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.223586,
+      "longitude": 28.48434
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 349779",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "18e75ae8-1231-4133-bca0-0133ff4d650c",
+    "name": "OTP Bank ATM #101",
+    "address": "49 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.218425,
+      "longitude": 28.508573
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 394002",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "60d536e0-954f-43c2-ba65-643204e30f69",
+    "name": "PUMB ATM #102",
+    "address": "169 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.229047,
+      "longitude": 28.481779
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 316046",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "1e6f78c2-0fe6-4f2b-babf-fd2ceed5d4ee",
+    "name": "PrivatBank ATM #103",
+    "address": "56 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.231482,
+      "longitude": 28.491948
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 323508",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "37198a7d-fb85-466c-a10e-d8b7efc5fda5",
+    "name": "Oschadbank ATM #104",
+    "address": "27 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.23041,
+      "longitude": 28.500688
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 305552",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "26e049a9-0b7c-47ed-8daa-da112158605f",
+    "name": "OTP Bank ATM #105",
+    "address": "107 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221532,
+      "longitude": 28.500624
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 361150",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "ba93d51d-1b1e-466c-8ec5-2e2ca745fce9",
+    "name": "OTP Bank ATM #106",
+    "address": "62 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222684,
+      "longitude": 28.502864
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 384094",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "f5567b18-75b1-4315-9ea9-501f3e6d5ba6",
+    "name": "PrivatBank ATM #107",
+    "address": "134 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227973,
+      "longitude": 28.482545
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 365081",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "c03949b7-6449-48e4-ad0a-0d783be1e4e8",
+    "name": "OTP Bank ATM #108",
+    "address": "27 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.212287,
+      "longitude": 28.478147
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 349711",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "d4b5553a-09f4-48bb-9e68-fa22056d111c",
+    "name": "UkrSibbank ATM #109",
+    "address": "178 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.214997,
+      "longitude": 28.490883
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 328042",
+    "availableCash": [
+      "200 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "fb2900ef-423f-482c-a2c8-baad588f069d",
+    "name": "UkrSibbank ATM #110",
+    "address": "100 Сабарів St.",
+    "city": "Vinnytsia",
+    "state": "Сабарів",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.211581,
+      "longitude": 28.505129
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change",
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 311541",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "f3f79898-c5cb-44f8-bfc8-356174f5422d",
+    "name": "Oschadbank ATM #111",
+    "address": "171 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.245672,
+      "longitude": 28.464852
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 370985",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "6909b1a3-c4f2-41b7-b7e4-7583a3b6e18c",
+    "name": "OTP Bank ATM #112",
+    "address": "181 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.247114,
+      "longitude": 28.464125
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Pin Change",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 308261",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "75f0a0ec-17b4-41ca-81ed-6f385cdb7d42",
+    "name": "Oschadbank ATM #113",
+    "address": "140 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.244905,
+      "longitude": 28.466061
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 362338",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "916cdcff-2ccc-4fe8-aff7-4675e01a43f2",
+    "name": "UkrSibbank ATM #114",
+    "address": "84 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.254753,
+      "longitude": 28.453345
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 358597",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "1060e3d3-5ef1-4f27-8ced-d2b22ca8ddb2",
+    "name": "OTP Bank ATM #115",
+    "address": "84 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.248218,
+      "longitude": 28.465366
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 390133",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "0d82dab0-778c-418a-877a-655e515e2ed3",
+    "name": "OTP Bank ATM #116",
+    "address": "87 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.250585,
+      "longitude": 28.45161
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 363135",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "187e8380-4f7e-4802-bc4f-6cb3e85a1716",
+    "name": "Raiffeisen Bank ATM #117",
+    "address": "81 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.252689,
+      "longitude": 28.462098
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 302477",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "d6e2ce21-8997-4c3d-984c-6f495fd91ff8",
+    "name": "PrivatBank ATM #118",
+    "address": "129 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.25019,
+      "longitude": 28.462962
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Balance Inquiry",
+      "Check Deposit",
+      "Pin Change",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 383836",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "9cffecce-ac81-40b6-b267-f22531ab124e",
+    "name": "Oschadbank ATM #119",
+    "address": "189 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.249476,
+      "longitude": 28.446441
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 395814",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "276e90b7-5931-464c-a9db-366ca0165270",
+    "name": "Raiffeisen Bank ATM #120",
+    "address": "86 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.247016,
+      "longitude": 28.465582
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 390976",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "2a5070fc-6dad-4ab2-a943-a405a29a0e11",
+    "name": "UkrSibbank ATM #121",
+    "address": "36 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241099,
+      "longitude": 28.458775
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 380989",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "e38faaf7-8f06-4282-8e4e-5e869468c9b8",
+    "name": "PUMB ATM #122",
+    "address": "53 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.24731,
+      "longitude": 28.450565
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 356284",
+    "availableCash": [
+      "200 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "633c659c-4b00-49e0-8b2a-03a03f4c3653",
+    "name": "PUMB ATM #123",
+    "address": "160 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.242013,
+      "longitude": 28.460657
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 321646",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "76b5bbe8-9604-4b37-8c3c-fb1fb7a0647a",
+    "name": "Raiffeisen Bank ATM #124",
+    "address": "165 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.250983,
+      "longitude": 28.450052
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Cash Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 305145",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "8adecb0c-dc25-4cea-8836-15a9886e8953",
+    "name": "OTP Bank ATM #125",
+    "address": "198 П'ятничани St.",
+    "city": "Vinnytsia",
+    "state": "П'ятничани",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.244173,
+      "longitude": 28.462619
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Pin Change",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 307812",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "e99065e1-630e-45bd-bcd6-198a71bfc588",
+    "name": "OTP Bank ATM #126",
+    "address": "112 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.240682,
+      "longitude": 28.48969
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 308315",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "56e33f07-d649-4259-a212-28d164019757",
+    "name": "Raiffeisen Bank ATM #127",
+    "address": "52 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.249143,
+      "longitude": 28.51201
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Cash Deposit",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 365086",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "c7de7801-1c91-474e-9269-a20e451c459d",
+    "name": "PUMB ATM #128",
+    "address": "183 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.230762,
+      "longitude": 28.501051
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 308323",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "42595067-82f2-41a3-9f9d-855a4fa4a0f9",
+    "name": "OTP Bank ATM #129",
+    "address": "7 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.228284,
+      "longitude": 28.527731
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 323692",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "508fca3b-6e1f-4e97-ba2f-f7118843948c",
+    "name": "Oschadbank ATM #130",
+    "address": "101 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.241818,
+      "longitude": 28.504509
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 398350",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "4c010039-68d3-42f2-8c20-15a89befaec1",
+    "name": "OTP Bank ATM #131",
+    "address": "65 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.227649,
+      "longitude": 28.506515
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 356413",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "9f5f3fd8-8cb7-4381-bbb3-5b6aa04ce15f",
+    "name": "OTP Bank ATM #132",
+    "address": "90 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.237296,
+      "longitude": 28.484539
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 399363",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "a91ee2a5-1f60-4b2f-bc66-17f710318db0",
+    "name": "UkrSibbank ATM #133",
+    "address": "118 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.226501,
+      "longitude": 28.511713
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 384347",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "bb2eacc7-deae-4369-9f51-24e542d4f54e",
+    "name": "Raiffeisen Bank ATM #134",
+    "address": "185 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.229233,
+      "longitude": 28.524131
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry",
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 344961",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "3cef5b20-66dc-4c97-bbda-13a4474a9735",
+    "name": "Raiffeisen Bank ATM #135",
+    "address": "186 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.216638,
+      "longitude": 28.492398
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 305715",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "b3d009b6-4b45-4cd3-b87a-77696538ba1c",
+    "name": "OTP Bank ATM #136",
+    "address": "134 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.231571,
+      "longitude": 28.50114
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 355950",
+    "availableCash": [
+      "200 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "63aa1651-51ef-4f9b-9904-c8415dc918b4",
+    "name": "PUMB ATM #137",
+    "address": "134 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222116,
+      "longitude": 28.508905
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 367824",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "999a7b43-71b3-443b-82be-225607d60a7a",
+    "name": "Oschadbank ATM #138",
+    "address": "145 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.249846,
+      "longitude": 28.487799
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 366967",
+    "availableCash": [
+      "50 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "5bfe0c95-f671-47e7-b9a2-02ce3942c8c1",
+    "name": "OTP Bank ATM #139",
+    "address": "35 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.224128,
+      "longitude": 28.507979
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change",
+      "Cash Deposit",
+      "Check Deposit",
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 364031",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "8df3c9bf-de34-4dd9-8502-7d9b07379055",
+    "name": "Raiffeisen Bank ATM #140",
+    "address": "82 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.221599,
+      "longitude": 28.523165
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 358482",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "81d05f4c-1386-4d32-b3b1-f58b94bb16a8",
+    "name": "Raiffeisen Bank ATM #141",
+    "address": "148 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.219101,
+      "longitude": 28.493666
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Balance Inquiry"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 330624",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "d251e0a6-f794-40c0-9758-3848d6c7971f",
+    "name": "PUMB ATM #142",
+    "address": "184 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222029,
+      "longitude": 28.480083
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 348378",
+    "availableCash": [
+      "500 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "304d458e-f388-4a20-b6ed-1c84632d6f77",
+    "name": "OTP Bank ATM #143",
+    "address": "99 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.225497,
+      "longitude": 28.519453
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Deposit",
+      "Cash Withdrawal"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 381584",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "06ea5dd6-8d3d-4eeb-9f9f-68b56a9fdd43",
+    "name": "UkrSibbank ATM #144",
+    "address": "67 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.242021,
+      "longitude": 28.492672
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit",
+      "Pin Change",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 325103",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "ca61c87b-5fa0-44cc-9dc0-301e0010476b",
+    "name": "Raiffeisen Bank ATM #145",
+    "address": "60 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222427,
+      "longitude": 28.488279
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Cash Withdrawal",
+      "Check Deposit",
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 357392",
+    "availableCash": [
+      "100 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "7235386f-5e32-44bc-8fff-d3c9e58bc3ee",
+    "name": "PUMB ATM #146",
+    "address": "29 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.232633,
+      "longitude": 28.474064
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 373815",
+    "availableCash": [
+      "50 UAH",
+      "500 UAH"
+    ]
+  },
+  {
+    "id": "d08ea9ea-4eb2-4ff9-a86c-cbf31ecc2e69",
+    "name": "OTP Bank ATM #147",
+    "address": "37 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.225509,
+      "longitude": 28.473455
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 385711",
+    "availableCash": [
+      "100 UAH",
+      "50 UAH"
+    ]
+  },
+  {
+    "id": "1f5ee4c8-ec00-4209-97c7-d0883acfb0df",
+    "name": "PUMB ATM #148",
+    "address": "21 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.243116,
+      "longitude": 28.516406
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit",
+      "Cash Withdrawal",
+      "Check Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 379604",
+    "availableCash": [
+      "500 UAH",
+      "200 UAH"
+    ]
+  },
+  {
+    "id": "eb147de4-0bf9-4152-84e6-2f0b88fcffcf",
+    "name": "Oschadbank ATM #149",
+    "address": "20 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.224048,
+      "longitude": 28.471756
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 329434",
+    "availableCash": [
+      "500 UAH",
+      "100 UAH"
+    ]
+  },
+  {
+    "id": "42830fc5-06b5-4c92-b26d-9ce635272c87",
+    "name": "PUMB ATM #150",
+    "address": "147 Інше St.",
+    "city": "Vinnytsia",
+    "state": "Інше",
+    "postalCode": "21000",
+    "coordinates": {
+      "latitude": 49.222271,
+      "longitude": 28.526252
+    },
+    "networks": [
+      "VISA",
+      "MASTERCARD"
+    ],
+    "services": [
+      "Pin Change",
+      "Cash Deposit"
+    ],
+    "hours": "24/7",
+    "phoneNumber": "+380 (432) 302264",
+    "availableCash": [
+      "100 UAH",
+      "500 UAH"
+    ]
+  }
+]

@@ -8,17 +8,17 @@ import ATMCard from '@/components/ATMCard';
 import { toast } from 'sonner';
 
 const Index = () => {
-  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [atms, setAtms] = useState<ATM[]>([]);
   const [selectedAtm, setSelectedAtm] = useState<ATM | null>(null);
   const [isSearching, setIsSearching] = useState(false);
   const [showResults, setShowResults] = useState(false);
+  const [mapCenter, setMapCenter] = useState<{ lat: number, lng: number }>();
   const [highlightNetwork, setHighlightNetwork] = useState<'VISA' | 'MASTERCARD' | null>(null);
 
   const calculateSearchRadius = (zoom: number): number => {
-    if (zoom <= 13) return 5; // Large radius when zoomed out
-    if (zoom <= 14) return 3; // Medium radius
-    if (zoom <= 15) return 2; // Small radius
+    if (zoom <= 13) return 10; // Large radius when zoomed out
+    if (zoom <= 14) return 5; // Medium radius
+    if (zoom <= 15) return 3; // Small radius
     return 1; // Very small radius when zoomed in
   };
 
@@ -27,12 +27,12 @@ const Index = () => {
       setIsSearching(true);
       setSelectedAtm(null);
       setShowResults(false);
-      
+
       const results = await searchATMs(params);
-      
+
       setAtms(results);
       setShowResults(true);
-      
+
       if (results.length === 0) {
         toast.info('No ATMs found matching your criteria. Try expanding your search radius or changing filters.');
       } else {
@@ -48,16 +48,17 @@ const Index = () => {
 
   const handleMapMove = async (center: { lat: number; lng: number }, zoom: number) => {
     try {
+      setMapCenter(center);
       setIsSearching(true);
       const searchRadius = calculateSearchRadius(zoom);
-      
+
       const results = await searchATMs({
         latitude: center.lat,
         longitude: center.lng,
         radius: searchRadius,
         networks: ['VISA', 'MASTERCARD']
       });
-      
+
       setAtms(results);
     } catch (error) {
       console.error('Error searching ATMs:', error);
@@ -66,21 +67,6 @@ const Index = () => {
       setIsSearching(false);
     }
   };
-
-  useEffect(() => {
-    const hasInteracted = localStorage.getItem('hasInteracted');
-    
-    if (hasInteracted === 'true' && userLocation) {
-      handleSearch({
-        latitude: userLocation[0],
-        longitude: userLocation[1],
-        radius: 5,
-        networks: ['VISA', 'MASTERCARD']
-      });
-    }
-    
-    localStorage.setItem('hasInteracted', 'true');
-  }, [userLocation]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
@@ -98,13 +84,12 @@ const Index = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
           <div className="lg:col-span-1">
-            <SearchPanel 
-              onSearch={handleSearch} 
+            <SearchPanel
+              onSearch={handleSearch}
               isSearching={isSearching}
-              userLocation={userLocation}
-              setUserLocation={setUserLocation}
+              mapCenter={mapCenter}
             />
-            
+
             <AnimatedTransition
               show={showResults && atms.length > 0}
               duration={300}
@@ -113,43 +98,43 @@ const Index = () => {
             >
               <div className="flex justify-between items-center mb-1">
                 <h2 className="text-lg font-medium">Results ({atms.length})</h2>
-                
+
                 <div className="flex gap-1">
                   <button
                     className={`p-1 rounded ${highlightNetwork === 'VISA' ? 'bg-blue-100 text-blue-600' : 'hover:bg-secondary'}`}
                     onClick={() => setHighlightNetwork(highlightNetwork === 'VISA' ? null : 'VISA')}
                   >
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" 
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png"
                       alt="Visa"
                       className="h-5 w-8 object-contain"
                     />
                   </button>
-                  
+
                   <button
                     className={`p-1 rounded ${highlightNetwork === 'MASTERCARD' ? 'bg-orange-100 text-orange-600' : 'hover:bg-secondary'}`}
                     onClick={() => setHighlightNetwork(highlightNetwork === 'MASTERCARD' ? null : 'MASTERCARD')}
                   >
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/1200px-Mastercard_2019_logo.svg.png" 
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/1200px-Mastercard_2019_logo.svg.png"
                       alt="Mastercard"
                       className="h-5 w-8 object-contain"
                     />
                   </button>
                 </div>
               </div>
-              
+
               {atms.map(atm => (
-                <ATMCard 
-                  key={atm.id} 
-                  atm={atm} 
+                <ATMCard
+                  key={atm.id}
+                  atm={atm}
                   onClick={() => setSelectedAtm(atm)}
                   isSelected={selectedAtm?.id === atm.id}
                   highlightNetwork={highlightNetwork}
                 />
               ))}
             </AnimatedTransition>
-            
+
             <AnimatedTransition
               show={showResults && atms.length === 0}
               duration={300}
@@ -167,18 +152,17 @@ const Index = () => {
               </div>
             </AnimatedTransition>
           </div>
-          
+
           <div className="lg:col-span-2 h-[70vh] rounded-xl overflow-hidden shadow-xl bg-white/30 backdrop-blur-sm border border-border">
-            <MapView 
-              atms={atms} 
+            <MapView
+              atms={atms}
               selectedAtm={selectedAtm}
               setSelectedAtm={setSelectedAtm}
-              userLocation={userLocation}
               onMapMove={handleMapMove}
             />
           </div>
         </div>
-        
+
         <footer className="text-center text-sm text-muted-foreground">
           <p>
             ATM Finder &copy; {new Date().getFullYear()} | VISA and Mastercard are registered trademarks of their respective owners.

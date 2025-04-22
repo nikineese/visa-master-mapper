@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { 
-  MapContainer, 
-  TileLayer, 
-  Marker, 
-  Popup, 
+import React, {useEffect, useMemo, useState} from 'react';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
   useMap,
   useMapEvents,
   CircleMarker,
@@ -12,6 +12,7 @@ import {
 import L from 'leaflet';
 import { ATM } from '@/utils/api';
 import ATMCard from './ATMCard';
+import debounce from 'lodash/debounce';
 
 // Fix Leaflet icons
 import 'leaflet/dist/leaflet.css';
@@ -32,7 +33,6 @@ interface MapViewProps {
   atms: ATM[];
   selectedAtm: ATM | null;
   setSelectedAtm: (atm: ATM | null) => void;
-  userLocation: [number, number] | null;
   onMapMove: (center: { lat: number; lng: number }, zoom: number) => void;
 }
 
@@ -52,23 +52,24 @@ const MapEventHandler: React.FC<{ onMapMove: (center: { lat: number; lng: number
 const MapUpdateController: React.FC<{
   atms: ATM[];
   selectedAtm: ATM | null;
-  userLocation: [number, number] | null;
-}> = ({ atms, selectedAtm, userLocation }) => {
+  onMapMove: (center: { lat: number; lng: number }, zoom: number) => void;
+}> = ({ atms, selectedAtm, onMapMove }) => {
   const map = useMap();
-  
+
   useEffect(() => {
     // Set initial view to Vinnytsia
     const vinnytsiaCoords: [number, number] = [49.2331, 28.4682];
     map.setView(vinnytsiaCoords, 13);
-    
+
     // Set map bounds to Vinnytsia region
     const vinnytsiaRadius = 10; // km
     const bounds = L.latLng(vinnytsiaCoords[0], vinnytsiaCoords[1]).toBounds(vinnytsiaRadius * 1000);
     map.setMaxBounds(bounds);
     map.setMinZoom(12);
     map.setMaxZoom(18);
+    onMapMove({ lat: vinnytsiaCoords[0], lng: vinnytsiaCoords[1] }, 13);
   }, [map]);
-  
+
   useEffect(() => {
     if (selectedAtm) {
       map.setView(
@@ -77,19 +78,18 @@ const MapUpdateController: React.FC<{
       );
     }
   }, [map, selectedAtm]);
-  
+
   return null;
 };
 
-const MapView: React.FC<MapViewProps> = ({ 
-  atms, 
-  selectedAtm, 
+const MapView: React.FC<MapViewProps> = ({
+  atms,
+  selectedAtm,
   setSelectedAtm,
-  userLocation,
-  onMapMove
+  onMapMove,
 }) => {
   const vinnytsiaCenter: [number, number] = [49.2331, 28.4682];
-  
+
   return (
     <MapContainer
       center={vinnytsiaCenter}
@@ -101,30 +101,17 @@ const MapView: React.FC<MapViewProps> = ({
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      
+
       <ZoomControl position="bottomright" />
-      
-      <MapUpdateController 
-        atms={atms} 
+
+      <MapUpdateController
+        atms={atms}
         selectedAtm={selectedAtm}
-        userLocation={userLocation}
+        onMapMove={onMapMove}
       />
-      
+
       <MapEventHandler onMapMove={onMapMove} />
-      
-      {userLocation && (
-        <CircleMarker 
-          center={userLocation}
-          radius={8}
-          pathOptions={{ 
-            fillColor: '#3b82f6', 
-            fillOpacity: 0.7,
-            color: 'white',
-            weight: 2
-          }}
-        />
-      )}
-      
+
       {atms.map(atm => (
         <Marker
           key={atm.id}
