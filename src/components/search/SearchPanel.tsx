@@ -1,15 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
 import { SearchParams } from '@/utils/api';
 import { cn } from '@/lib/utils';
 import { Sliders } from 'lucide-react';
 import { toast } from 'sonner';
 import { SearchPanelProps } from './types';
-import SearchInput from './SearchInput';
+import PlacesAutocomplete from './PlacesAutocomplete';
 import FilterPills from './FilterPills';
 import FiltersPanel from './FiltersPanel';
 import SearchButton from './SearchButton';
-import { simulateGeolocation, getCurrentLocation } from './LocationUtils';
 
 const SearchPanel: React.FC<SearchPanelProps> = ({ 
   onSearch, 
@@ -19,11 +17,10 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
 }) => {
   const [showFilters, setShowFilters] = useState(false);
   const [networks, setNetworks] = useState<('VISA' | 'MASTERCARD')[]>(['VISA', 'MASTERCARD']);
-  const [radius, setRadius] = useState(5); // 5 km default
+  const [radius, setRadius] = useState(5);
   const [locationInput, setLocationInput] = useState('');
   const [services, setServices] = useState<string[]>([]);
   const [availableCash, setAvailableCash] = useState<string[]>([]);
-  const [manualCoords, setManualCoords] = useState<[number, number] | null>(null);
   
   const toggleService = (service: string) => {
     if (services.includes(service)) {
@@ -52,81 +49,51 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
     }
   };
   
+  const handlePlaceSelect = (lat: number, lng: number) => {
+    const coords: [number, number] = [lat, lng];
+    setUserLocation(coords);
+    
+    onSearch({
+      latitude: lat,
+      longitude: lng,
+      radius,
+      networks,
+      services: services.length > 0 ? services : undefined,
+      availableCash: availableCash.length > 0 ? availableCash : undefined
+    });
+  };
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // If there's location input, use it
-    if (locationInput) {
-      // In a real app, we would geocode the locationInput
-      // For this demo, we'll simulate coordinates based on input
-      const searchLocation = simulateGeolocation(locationInput);
-      setManualCoords(searchLocation);
-      setUserLocation(searchLocation);
-      
-      toast.info(`Searching near "${locationInput}"`);
-      
-      onSearch({
-        latitude: searchLocation[0],
-        longitude: searchLocation[1],
-        radius,
-        networks,
-        services: services.length > 0 ? services : undefined
-      });
-      return;
-    }
-    
-    // If we already have user location, use it
     if (userLocation) {
       onSearch({
         latitude: userLocation[0],
         longitude: userLocation[1],
         radius,
         networks,
-        services: services.length > 0 ? services : undefined
+        services: services.length > 0 ? services : undefined,
+        availableCash: availableCash.length > 0 ? availableCash : undefined
       });
-      return;
+    } else {
+      toast.error('Please select a location from the suggestions');
     }
-    
-    // If we don't have user location, try to get it
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        const { latitude, longitude } = position.coords;
-        const coords: [number, number] = [latitude, longitude];
-        setUserLocation(coords);
-        
-        onSearch({
-          latitude,
-          longitude,
-          radius,
-          networks,
-          services: services.length > 0 ? services : undefined
-        });
-      },
-      (error) => {
-        console.error('Error getting location:', error);
-        
-        // Use fallback coordinates if geolocation fails
-        const fallbackCoords = simulateGeolocation(locationInput || 'Default Location');
-        setUserLocation(fallbackCoords);
-        setManualCoords(fallbackCoords);
-        
-        toast.warning("Could not get your exact location. Using approximate location for search.");
-        
-        onSearch({
-          latitude: fallbackCoords[0],
-          longitude: fallbackCoords[1],
-          radius,
-          networks,
-          services: services.length > 0 ? services : undefined
-        });
-      }
-    );
   };
   
-  // Get initial user location
   useEffect(() => {
     if (navigator.geolocation && !userLocation) {
-      getCurrentLocation(setUserLocation);
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLocation([
+            position.coords.latitude,
+            position.coords.longitude
+          ]);
+        },
+        (error) => {
+          console.error('Error getting location:', error);
+          // Don't show toast here, we'll handle it in the search function
+        }
+      );
     }
   }, [userLocation, setUserLocation]);
   
@@ -134,10 +101,11 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
     <div className="w-full max-w-md glassmorphism rounded-xl overflow-hidden card-shadow">
       <form onSubmit={handleSubmit} className="p-4">
         <div className="flex items-center gap-3 mb-4">
-          <SearchInput 
+          <PlacesAutocomplete 
             locationInput={locationInput}
             setLocationInput={setLocationInput}
             isSearching={isSearching}
+            onPlaceSelect={handlePlaceSelect}
           />
           
           <button
