@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Search, CreditCard } from 'lucide-react';
 import AnimatedTransition from '@/components/AnimatedTransition';
@@ -40,12 +39,29 @@ const Index = () => {
     }
   };
 
+  const handleMapMove = async (center: { lat: number; lng: number }) => {
+    try {
+      setIsSearching(true);
+      const results = await searchATMs({
+        latitude: center.lat,
+        longitude: center.lng,
+        radius: 2, // 2km radius for Vinnytsia area
+        networks: ['VISA', 'MASTERCARD']
+      });
+      
+      setAtms(results);
+    } catch (error) {
+      console.error('Error searching ATMs:', error);
+      toast.error('Failed to update ATM locations');
+    } finally {
+      setIsSearching(false);
+    }
+  };
+
   useEffect(() => {
-    // Check if user has interacted with the page
     const hasInteracted = localStorage.getItem('hasInteracted');
     
     if (hasInteracted === 'true' && userLocation) {
-      // Automatically search when location is set and user has interacted before
       handleSearch({
         latitude: userLocation[0],
         longitude: userLocation[1],
@@ -54,7 +70,6 @@ const Index = () => {
       });
     }
     
-    // Set interaction flag
     localStorage.setItem('hasInteracted', 'true');
   }, [userLocation]);
 
@@ -150,6 +165,7 @@ const Index = () => {
               selectedAtm={selectedAtm}
               setSelectedAtm={setSelectedAtm}
               userLocation={userLocation}
+              onMapMove={handleMapMove}
             />
           </div>
         </div>
