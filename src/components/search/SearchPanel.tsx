@@ -9,6 +9,7 @@ import PlacesAutocomplete from './PlacesAutocomplete';
 import FilterPills from './FilterPills';
 import FiltersPanel from './FiltersPanel';
 import SearchButton from './SearchButton';
+import { simulateGeolocation, getCurrentLocation } from './LocationUtils';
 
 const SearchPanel: React.FC<SearchPanelProps> = ({ 
   onSearch, 
@@ -48,10 +49,15 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
     }
   };
   
-  const handlePlaceSelect = (lat: number, lng: number) => {
+  const handlePlaceSelect = (lat: number, lng: number, description?: string) => {
     const coords: [number, number] = [lat, lng];
     setUserLocation(coords);
     
+    if (description) {
+      setLocationInput(description);
+    }
+    
+    // Trigger search immediately after setting the location
     onSearch({
       latitude: lat,
       longitude: lng,
@@ -69,6 +75,21 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
       onSearch({
         latitude: userLocation[0],
         longitude: userLocation[1],
+        radius,
+        networks,
+        services: services.length > 0 ? services : undefined,
+        availableCash: availableCash.length > 0 ? availableCash : undefined
+      });
+    } else if (locationInput) {
+      // If we have a location input but no coordinates, try to use a simulated location
+      const simulatedLocation = simulateGeolocation(locationInput);
+      setUserLocation(simulatedLocation);
+      
+      toast.info('Using approximate location for search');
+      
+      onSearch({
+        latitude: simulatedLocation[0],
+        longitude: simulatedLocation[1],
         radius,
         networks,
         services: services.length > 0 ? services : undefined,

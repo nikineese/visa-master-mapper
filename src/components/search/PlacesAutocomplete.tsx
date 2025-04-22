@@ -7,7 +7,7 @@ interface PlacesAutocompleteProps {
   locationInput: string;
   setLocationInput: (value: string) => void;
   isSearching: boolean;
-  onPlaceSelect: (lat: number, lng: number) => void;
+  onPlaceSelect: (lat: number, lng: number, description?: string) => void;
 }
 
 const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
@@ -24,10 +24,15 @@ const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
   useEffect(() => {
     // Initialize Google Places services
     if (window.google && !autocompleteService) {
-      setAutocompleteService(new google.maps.places.AutocompleteService());
-      // We need a HTML element to create PlacesService
-      const attributionsElement = document.createElement('div');
-      setPlacesService(new google.maps.places.PlacesService(attributionsElement));
+      try {
+        setAutocompleteService(new google.maps.places.AutocompleteService());
+        // We need a HTML element to create PlacesService
+        const attributionsElement = document.createElement('div');
+        setPlacesService(new google.maps.places.PlacesService(attributionsElement));
+      } catch (error) {
+        console.error('Error initializing Google Places services:', error);
+        toast.error('Error initializing location search');
+      }
     }
   }, []);
 
@@ -59,20 +64,24 @@ const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
   }, [locationInput, autocompleteService]);
 
   const handlePlaceSelect = async (placeId: string, description: string) => {
-    if (!placesService) return;
+    if (!placesService) {
+      toast.error('Location search service not available');
+      return;
+    }
 
     try {
       const request = {
         placeId: placeId,
-        fields: ['geometry']
+        fields: ['geometry', 'name', 'formatted_address']
       };
 
       placesService.getDetails(request, (place, status) => {
         if (status === google.maps.places.PlacesServiceStatus.OK && place?.geometry?.location) {
           const lat = place.geometry.location.lat();
           const lng = place.geometry.location.lng();
-          setLocationInput(description);
-          onPlaceSelect(lat, lng);
+          
+          // Pass description as well to update the input field
+          onPlaceSelect(lat, lng, description);
         } else {
           toast.error('Error getting place details');
         }
@@ -82,6 +91,12 @@ const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
       toast.error('Error getting place details');
     }
 
+    setShowDropdown(false);
+  };
+  
+  const clearInput = () => {
+    setLocationInput('');
+    setPredictions([]);
     setShowDropdown(false);
   };
 
@@ -101,11 +116,7 @@ const PlacesAutocomplete: React.FC<PlacesAutocompleteProps> = ({
         <button
           type="button"
           className="absolute right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
-          onClick={() => {
-            setLocationInput('');
-            setPredictions([]);
-            setShowDropdown(false);
-          }}
+          onClick={clearInput}
         >
           <X size={16} />
         </button>
