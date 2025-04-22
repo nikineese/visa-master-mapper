@@ -33,15 +33,16 @@ interface MapViewProps {
   selectedAtm: ATM | null;
   setSelectedAtm: (atm: ATM | null) => void;
   userLocation: [number, number] | null;
-  onMapMove: (center: { lat: number; lng: number }) => void;
+  onMapMove: (center: { lat: number; lng: number }, zoom: number) => void;
 }
 
 // Component to handle map movement events
-const MapEventHandler: React.FC<{ onMapMove: (center: { lat: number; lng: number }) => void }> = ({ onMapMove }) => {
+const MapEventHandler: React.FC<{ onMapMove: (center: { lat: number; lng: number }, zoom: number) => void }> = ({ onMapMove }) => {
   const map = useMapEvents({
     moveend: () => {
       const center = map.getCenter();
-      onMapMove({ lat: center.lat, lng: center.lng });
+      const zoom = map.getZoom();
+      onMapMove({ lat: center.lat, lng: center.lng }, zoom);
     },
   });
   return null;

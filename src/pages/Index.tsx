@@ -15,6 +15,13 @@ const Index = () => {
   const [showResults, setShowResults] = useState(false);
   const [highlightNetwork, setHighlightNetwork] = useState<'VISA' | 'MASTERCARD' | null>(null);
 
+  const calculateSearchRadius = (zoom: number): number => {
+    if (zoom <= 13) return 5; // Large radius when zoomed out
+    if (zoom <= 14) return 3; // Medium radius
+    if (zoom <= 15) return 2; // Small radius
+    return 1; // Very small radius when zoomed in
+  };
+
   const handleSearch = async (params: SearchParams) => {
     try {
       setIsSearching(true);
@@ -39,13 +46,15 @@ const Index = () => {
     }
   };
 
-  const handleMapMove = async (center: { lat: number; lng: number }) => {
+  const handleMapMove = async (center: { lat: number; lng: number }, zoom: number) => {
     try {
       setIsSearching(true);
+      const searchRadius = calculateSearchRadius(zoom);
+      
       const results = await searchATMs({
         latitude: center.lat,
         longitude: center.lng,
-        radius: 2, // 2km radius for Vinnytsia area
+        radius: searchRadius,
         networks: ['VISA', 'MASTERCARD']
       });
       
